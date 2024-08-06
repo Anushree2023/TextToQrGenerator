@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/bg">
+
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="73dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:contentDescription="@string/my_image_button_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nosybuton"
+
+        >
+
+    </ImageButton>
+
+
+</LinearLayout>
