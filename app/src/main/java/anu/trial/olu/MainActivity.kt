@@ -8,10 +8,11 @@ import android.widget.ImageButton
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+    lateinit var temp;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        temp=5; //this is a temporary change and can be removed
         val myImageButton: ImageButton = findViewById(R.id.start)
         myImageButton.setOnClickListener {
             // Start the second activity
